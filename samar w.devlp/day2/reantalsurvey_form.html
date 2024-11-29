@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Room Survey</title>
+</head>
+<body>
+
+    <h1>Rental Room Survey</h1>
+
+    <form action="#" method="post">
+        <!-- Personal Information Section -->
+        <h3>Personal Information</h3>
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <!-- Room Preferences Section -->
+        <h3>Room Preferences</h3>
+        <label for="roomType">Preferred Room Type:</label><br>
+        <select id="roomType" name="roomType" required>
+            <option value="single">Single Room</option>
+            <option value="shared">Shared Room</option>
+            <option value="studio">Studio Apartment</option>
+        </select><br><br>
+
+        <label for="budget">Monthly Rent Budget (in ₹):</label><br>
+        <input type="number" id="budget" name="budget" required><br><br>
+
+        <!-- Rental Terms Section -->
+        <h3>Rental Terms</h3>
+        <label for="moveInDate">Preferred Move-in Date:</label><br>
+        <input type="date" id="moveInDate" name="moveInDate" required><br><br>
+
+        <label for="leaseLength">Preferred Lease Length:</label><br>
+        <select id="leaseLength" name="leaseLength" required>
+            <option value="6months">6 Months</option>
+            <option value="12months">12 Months</option>
+            <option value="monthToMonth">Month-to-Month</option>
+        </select><br><br>
+
+        <!-- Additional Information Section -->
+        <h3>Additional Information</h3>
+        <label for="specialRequests">Special Requests or Requirements:</label><br>
+        <textarea id="specialRequests" name="specialRequests" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Survey</button>
+    </form>
+
+</body>
+</html>

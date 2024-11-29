@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Hello its Samar
+    <h1>I am From Btech CST Branch</h1>
+</h1>    
+             <h1>Studio Rental Application Form</h1>
+             
+        
+        
+<image class="https://www.pexels.com/photo/yellow-flowers-around-a-white-paper-7965169/"></a> <width240pxl>
+    <form action="">
+    border-radius
+        <label for="organisation">ORGANISATION:</label>
+        <input type="text">
+        <br>
+        <label for="main contact">MAIN CONTACT:</label>
+        <input type="text">
+        <br>
+        <label for="email address">EMAIL ADDRESS</label>
+        <input type="email address" name="" id="">
+    <br>
+        <label for="">Please provide a brief description of your rental required</label>
+    <textarea name="" id=""></textarea>
+    </form
+    
+    <label for="">Start date</label>
+    <input type="date">
+    <br>
+    <label for="">End Date<label>
+        <input type="Date">
+    
+    
+</body>
+</html>
